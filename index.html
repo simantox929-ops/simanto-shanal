@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanyal Jr. — Personal portfolio website.">
+  <title>Sanyal Jr. | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#home" aria-label="Sanyal Jr. home">
+      <img src="assets/logo.png" alt="Sanyal Jr. logo">
+      <span>SANYAL <b>JR.</b></span>
+    </a>
+
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span></span> PERSONAL PORTFOLIO</p>
+        <h1>SANYAL <em>JR.</em></h1>
+        <p class="hero-text">Welcome to my personal space on the web — a place for my work, ideas, projects and journey.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore My Work <span>↗</span></a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="quick-stats">
+          <div><strong>01</strong><span>Creative Mind</span></div>
+          <div><strong>02</strong><span>Engineering Journey</span></div>
+          <div><strong>03</strong><span>Always Learning</span></div>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="red-glow"></div>
+        <img src="assets/logo.png" alt="Sanyal Jr. emblem" class="hero-logo">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> ABOUT ME</p>
+        <h2>A LITTLE <em>ABOUT</em> SANYAL</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="card-number">01</div>
+          <h3>Who I Am</h3>
+          <p>I’m Sanyal Jr., an engineering student and a curious creator. I enjoy learning technical concepts, building digital projects and turning ideas into something real.</p>
+        </div>
+        <div class="about-card featured reveal">
+          <div class="card-number">02</div>
+          <h3>My Philosophy</h3>
+          <p>Learn. Build. Improve. Repeat. I believe consistent small improvements create extraordinary results over time.</p>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-number">03</div>
+          <h3>Beyond Study</h3>
+          <p>Design, technology, photography, fitness and creative experiments are some of the things that keep me inspired.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> WHAT I DO</p>
+        <h2>SKILLS & <em>INTERESTS</em></h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill reveal"><span>01</span><h3>Engineering</h3><p>Electrical & electronic fundamentals, circuits, machines and technical problem solving.</p></article>
+        <article class="skill reveal"><span>02</span><h3>Web Design</h3><p>Responsive layouts, modern interfaces and clean front-end experiences.</p></article>
+        <article class="skill reveal"><span>03</span><h3>Programming</h3><p>Building logic with C and exploring web technologies and JavaScript.</p></article>
+        <article class="skill reveal"><span>04</span><h3>Creative Design</h3><p>Posters, visual concepts, branding ideas and digital graphics.</p></article>
+        <article class="skill reveal"><span>05</span><h3>Problem Solving</h3><p>Breaking complicated problems into simple, practical steps.</p></article>
+        <article class="skill reveal"><span>06</span><h3>Learning</h3><p>Always exploring new tools, technologies and ideas.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> SELECTED WORK</p>
+        <h2>MY <em>PROJECTS</em></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project reveal">
+          <div class="project-top"><span>PROJECT 01</span><b>↗</b></div>
+          <h3>Personal Portfolio</h3>
+          <p>A dark, bold and responsive personal website built around the Sanyal Jr. identity.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-top"><span>PROJECT 02</span><b>↗</b></div>
+          <h3>EEE Study Hub</h3>
+          <p>A future collection of notes, diagrams, lab resources and engineering study materials.</p>
+          <div class="tags"><span>Education</span><span>Engineering</span></div>
+        </article>
+        <article class="project reveal">
+          <div class="project-top"><span>PROJECT 03</span><b>↗</b></div>
+          <h3>Creative Gallery</h3>
+          <p>A visual archive for posters, photography, designs and other creative experiments.</p>
+          <div class="tags"><span>Design</span><span>Gallery</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span></span> VISUAL JOURNAL</p>
+        <h2>MY <em>GALLERY</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall reveal"><img src="assets/logo.png" alt="Sanyal Jr. logo"><span>IDENTITY</span></div>
+        <div class="gallery-item quote reveal"><strong>CREATE<br><i>YOUR</i><br>OWN PATH.</strong><span>SANYAL JR.</span></div>
+        <div class="gallery-item reveal"><div class="placeholder">ADD<br>PHOTO</div><span>PHOTO 01</span></div>
+        <div class="gallery-item reveal"><div class="placeholder">ADD<br>PHOTO</div><span>PHOTO 02</span></div>
+      </div>
+      <p class="gallery-note">Replace the two “ADD PHOTO” blocks with your own images by editing the gallery section in <code>index.html</code>.</p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-box reveal">
+        <div>
+          <p class="eyebrow"><span></span> GET IN TOUCH</p>
+          <h2>LET'S <em>CONNECT.</em></h2>
+          <p>Have a project, idea or collaboration in mind? Send me a message.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your-email@example.com"><small>EMAIL</small><strong>your-email@example.com ↗</strong></a>
+          <a href="#" onclick="return false;"><small>FACEBOOK</small><strong>facebook.com/yourprofile ↗</strong></a>
+          <a href="#" onclick="return false;"><small>GITHUB</small><strong>github.com/yourusername ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">SANYAL <em>JR.</em></div>
+    <p>© <span id="year"></span> Sanyal Jr. All rights reserved.</p>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
